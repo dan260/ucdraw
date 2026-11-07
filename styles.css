@@ -1002,6 +1002,13 @@ html.no-js .source-editor {
   opacity: 0.34;
 }
 
+/* Invisible hit area: the actor figure is thin strokes, so clicks on the
+   whole node box still land on the node. */
+.uc-actor-hit {
+  fill: transparent;
+  stroke: none;
+}
+
 .uc-actor-figure {
   fill: none;
   stroke: var(--ink-soft);

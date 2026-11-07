@@ -357,6 +357,16 @@ function renderActor(parent, node) {
     parent,
   );
 
+  createElement(
+    'rect',
+    {
+      width: node.width,
+      height: node.height,
+      class: 'uc-actor-hit',
+    },
+    group,
+  );
+
   const cx = node.width / 2;
   createElement(
     'circle',

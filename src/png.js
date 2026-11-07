@@ -19,6 +19,7 @@ function substituteCssVariables(value, lookup) {
 const FALLBACK_DIAGRAM_STYLES = [
   '.uc-node { transition: opacity 160ms ease; }',
   '.uc-node.is-dimmed { opacity: 0.34; }',
+  '.uc-actor-hit { fill: transparent; stroke: none; }',
   '.uc-actor-figure { fill: none; stroke: var(--ink-soft); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }',
   '.uc-node-text { fill: #1b2230; font-family: var(--font-ui); font-size: 13px; font-weight: 600; dominant-baseline: middle; }',
   '.uc-actor-name { fill: var(--ink-soft); font-size: 12px; font-weight: 500; }',
