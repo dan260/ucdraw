@@ -36,6 +36,7 @@
   --btn-primary-fg: #fdfcf9;
   --btn-primary-hover: #283243;
   --brand-mark-fg: #f3ecdd;
+  --brand-mark-uc: #8daaf7;
   --gutter-fg: #b0aca3;
   --gutter-bg: #f8f6f1;
   --gutter-line: #eeeae2;
@@ -130,6 +131,7 @@
   --btn-primary-fg: #15181e;
   --btn-primary-hover: #cbd3e1;
   --brand-mark-fg: #14171d;
+  --brand-mark-uc: #7189e9;
   --gutter-fg: #61697a;
   --gutter-bg: #1a1e26;
   --gutter-line: #2a303c;
@@ -267,6 +269,10 @@ a {
   display: block;
   width: 26px;
   height: 26px;
+}
+
+.brand-mark .bm-uc {
+  fill: var(--brand-mark-uc);
 }
 
 .brand-copy {
